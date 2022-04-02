@@ -1,0 +1,44 @@
+body {
+      background-color: #363636;
+      padding: 0;
+      margin: 0;
+      font-family: "Nunito Sans";
+      }
+      .h-300{
+      height: 300px;
+      display: grid;
+      place-content: center;
+      }
+      .badge{
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      }
+      .card{
+      height: 100%;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+      }
+      small{
+      float: right;
+      font-size: 14px;
+      font-weight: 500;
+      color: #A19882;
+      }
+      .btn{
+      padding: 6px 25px;
+      margin-top: 10px;
+      font-size: 20px;
+      }
+      @media(max-width: 768px){
+      img{
+      height: 100%;
+      }
+      }
+      @media(max-width: 575px){
+      .container{
+      width: 90%;
+      }
+      .h-300{
+      height: 250px;
+      }
+      }
